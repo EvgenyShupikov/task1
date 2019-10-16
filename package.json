@@ -1,0 +1,22 @@
+{
+  "name": "skybonds-task1",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  },
+  "author": "Evgeny Shupikov",
+  "license": "MIT",
+  "dependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {}
+}
